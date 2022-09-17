@@ -1,11 +1,9 @@
 package com.dinesh;
 
-import java.util.Scanner;
-
 public class Arraydemo {
 
 	public static void main(String[] args) {
-//		int marks[]=new int[5];
+		int marks[] = new int[5];
 ////		marks[0]=90;
 ////		marks[1]=67;
 ////		marks[2]=78;
@@ -13,16 +11,18 @@ public class Arraydemo {
 ////		marks[4]=69;
 //		
 //		System.out.println("Enter marks one by one");
-		Scanner scanner=new Scanner(System.in);
-		
+//		Scanner scanner = new Scanner(System.in);
+//		int totalMarks = 0;
 //		for (int i = 0; i < marks.length; i++) {
-//			System.out.println("Enter mark "+(i+1));
-//			marks[i]=scanner.nextInt();
+//			System.out.println("Enter mark " + (i + 1));
+//			marks[i] = scanner.nextInt();
 //		}
-//		
-//		for(int mark:marks) {
-//			System.out.print(mark+" ");
+//
+//		for (int mark : marks) {
+//			System.out.print(mark + " ");
+//			totalMarks += mark;
 //		}
+//		System.out.println("Total Marks is " + totalMarks);
 //	    System.out.println(Enter );
 //		System.out.println(marks);
 //		for(int mark:marks) {
@@ -35,26 +35,26 @@ public class Arraydemo {
 //		
 //		System.out.println("Last Marks"+marks[marks.length-1]);
 //		System.out.println("Middle marks"+marks[marks.length/2]);
-		
-		int subjectmarks[][]=new int[2][];
+
+		int subjectmarks[][] = new int[2][2];
 ////		String studentNames[]= {"ABC","MNP"};
-//		subjectmarks[0][0]=56;
-//		subjectmarks[0][1]=67;
-//		subjectmarks[1][0]=76;
-//		subjectmarks[1][1]=89;
-		
-//		for (int i = 0; i < subjectmarks.length; i++) {
+//		int subjectmarks[][] = { { 78, 89 }, { 90, 67 } };
+		subjectmarks[0][0] = 89;
+		subjectmarks[0][1] = 67;
+		subjectmarks[1][0] = 76;
+		subjectmarks[1][1] = 89;
+
+		for (int i = 0; i < subjectmarks.length; i++) {
 //			System.out.println(studentNames[i]);
-//			System.out.println("------");
-//			for (int j=0; j<subjectmarks.length;j++) {
-//				
-//				System.out.print("|"+subjectmarks[i][j]+"|");
-//				
-//				
-//			}
-//			System.out.print("\n------");
-//			System.out.println();
-//		}
+			System.out.println("------");
+			for (int j = 0; j < subjectmarks.length; j++) {
+
+				System.out.print("|" + subjectmarks[i][j] + "|");
+
+			}
+			System.out.print("\n------");
+			System.out.println();
+		}
 
 	}
 
