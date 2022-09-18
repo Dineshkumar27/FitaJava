@@ -1,30 +1,32 @@
 package exceptionsdemo;
 
+import java.io.IOException;
+
 public class Exc {
+
+	static void method() throws IOException {
+		System.out.println();
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int num1=10;
-		int num2=10;
-		int arr[]= {11,22,33};
+
+		int a = 10;
+		int b = 10;
+		int arr[] = { 11, 22 };
+
 		try {
-			System.out.println(num1/num2);
-			arr[1]=90;//out of range
-			System.out.println("End of try");
-		}
-		
-		catch(ArithmeticException ae) {
+			System.out.println(a / b);
+			arr[1] = 90;
+			method();
+		} catch (ArithmeticException ae) {
 			System.out.println(ae.getMessage());
-		}
-		catch(ArrayIndexOutOfBoundsException aoe) {
-			System.out.println(aoe.getMessage());
-		}
-		catch(Exception e) {
+		} catch (ArrayIndexOutOfBoundsException aiobe) {
+			System.out.println(aiobe.getMessage());
+		} catch (Exception e) {
 			System.out.println(e.getMessage());
-		}
-		finally {
-			System.out.println("This is finally");
+		} finally {
+			System.out.println("Finally");
 		}
 
 	}
