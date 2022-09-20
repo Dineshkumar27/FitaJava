@@ -17,6 +17,21 @@ public class StringBuilderdemo {
 		sb.insert(1, "Java");
 		System.out.println(sb);
 
+		StringBuilder sbuild = new StringBuilder();
+		String number = "7897897898";
+		String mask = "xxxxxx$$$$";
+
+		for (int i = 0; i < number.length(); i++) {
+			char c = mask.charAt(i);
+			if (c == 'x') {
+				sbuild.append(c);
+			} else if (c == '$') {
+				sbuild.append(number.charAt(i));
+			}
+		}
+
+		System.out.println(sbuild.toString());
+
 	}
 
 }

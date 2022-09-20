@@ -11,9 +11,9 @@ public class ArrayListdemo {
 		al.add(10);
 		al.add(20);
 		al.add(30);
-
+		al.add(2, 56);
 		System.out.println(al);
-		al.remove(2);
+		al.remove(1);
 		System.out.println("After removing" + al);
 
 		// updating the list

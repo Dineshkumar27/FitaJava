@@ -27,7 +27,7 @@ public class Hashsetdemo {
 //		System.out.println(numbers);
 		System.out.println(numbers);
 		System.out.println(evennumbers);
-		numbers.removeAll(evennumbers);
+		numbers.removeAll(evennumbers);// Difference
 		System.out.println(numbers);
 
 	}

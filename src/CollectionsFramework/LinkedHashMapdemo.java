@@ -16,7 +16,7 @@ public class LinkedHashMapdemo {
 		// maintains order
 		LinkedHashMap<String, Integer> evenumbers = new LinkedHashMap<>(hm);
 
-		evenumbers.put("Two", 2);
+		evenumbers.put("Two", 22);
 		evenumbers.put("Four", 4);
 		evenumbers.put("Six", 6);
 

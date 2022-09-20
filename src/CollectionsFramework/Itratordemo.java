@@ -15,9 +15,9 @@ public class Itratordemo {
 
 //		System.out.println(al);
 
-//		for (int i : al) {
-//			System.out.println(i);
-//		}
+		for (int i : al) {
+			System.out.println(i);
+		}
 
 		Iterator iter = al.iterator();
 		while (iter.hasNext()) {

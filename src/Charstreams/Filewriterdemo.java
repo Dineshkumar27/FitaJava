@@ -4,23 +4,23 @@ import java.io.FileWriter;
 
 public class Filewriterdemo {
 
-  public static void main(String args[]) {
+	public static void main(String args[]) {
 
-    String data = "This is the data in the output file";
+		String data = "Have a Happy Sunday";
 
-    try {
-      // Creates a FileWriter
-      FileWriter output = new FileWriter("output.txt");
+		try {
+			// Creates a FileWriter
+			FileWriter output = new FileWriter("output1.txt");
 
-      // Writes the string to the file
-      output.write(data);
+			// Writes the string to the file
+			output.write(data);
 
-      // Closes the writer
-      output.close();
-    }
+			// Closes the writer
+			output.close();
+		}
 
-    catch (Exception e) {
-      e.getStackTrace();
-    }
-  }
+		catch (Exception e) {
+			e.getStackTrace();
+		}
+	}
 }
