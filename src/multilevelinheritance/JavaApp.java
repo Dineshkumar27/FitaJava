@@ -15,8 +15,6 @@ public class JavaApp {
 //		System.out.println("Customer 2");
 //		System.out.println("Id "+customer2.getId());
 //		System.out.println("Name "+customer2.getName());
-
-//		
 		/*
 		 * Lion lion=new Lion(); System.out.println("No. of legs"+lion.legs);
 		 * System.out.println("Name of the lion is "+lion.name); lion.eat();//calls the

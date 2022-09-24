@@ -8,6 +8,7 @@ public class CreatingThread {
 		System.out.println(t.getName());
 		System.out.println(t);
 		System.out.println(t.getPriority());
+		Thread.
 
 	}
 

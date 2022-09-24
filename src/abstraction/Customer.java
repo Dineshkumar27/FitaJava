@@ -9,6 +9,7 @@ public abstract class Customer {
 
 	abstract void calculateBill();
 
+	// non abstract method
 	public void printTotalBillAmount() {
 		System.out.println("bill amount is " + billAmount);
 	}

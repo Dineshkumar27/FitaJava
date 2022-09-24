@@ -9,14 +9,14 @@ public class AnnonymousInnerclass {
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
-				System.out.println("My runnable Thread is running");
+				System.out.println("this is annonymous class");
 			}
-
 		};
 
 		Thread t = new Thread(r);
 		t.start();
-
+		
+		Integer
 	}
 
 }

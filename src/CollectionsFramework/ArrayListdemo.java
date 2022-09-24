@@ -28,7 +28,12 @@ public class ArrayListdemo {
 		empList.add(new Employees(102, "BBBB", "HYD", 85000));
 		empList.add(new Employees(103, "CCCC", "Delhi", 70000));
 
-		System.out.println(empList);
+		System.out.println(empList.get(0).sal);
+
+		for (Employees e : empList) {
+			System.out.println(e.empName);
+
+		}
 
 	}
 

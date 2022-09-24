@@ -8,7 +8,7 @@ public class CheckedException {
 
 	public static void main(String[] args) throws IOException {
 
-		FileReader fr = new FileReader("e:\\sample.txt");
+		FileReader fr = new FileReader("e:\\sample677.txt");
 		BufferedReader br = new BufferedReader(fr);
 
 	}
