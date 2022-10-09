@@ -13,6 +13,9 @@ public class Synchronizationdemo {
 		seven.start();
 		six.start();
 		five.start();
+		System.out.println(seven.isAlive());
+		System.out.println(six.isAlive());
+		System.out.println(five.isAlive());
 	}
 
 }

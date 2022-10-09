@@ -6,7 +6,7 @@ public class Mythread extends Thread {
 		for (int i = 0; i < 2; i++) {
 
 			try {
-				Thread.sleep(300);
+				Thread.sleep(2000);
 			} catch (InterruptedException ie) {
 				System.out.println(ie.getMessage());
 			}

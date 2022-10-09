@@ -4,33 +4,33 @@ import java.io.IOException;
 
 public class Exc {
 
-	static void method() throws IOException {
-		System.out.println();
-	}
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int a = 10;
 		int b = 0;
-		int arr[] = { 11, 22 };
+		int arr[] = { 4, 9, 3 };
 
 		try {
-			System.out.println(a / b);
-			arr[10] = 90;
+			System.out.println(a / b);// dividing by zero
+			arr[7] = 90;// 7 is out of bound for index 2
 			method();
-		} catch (ArithmeticException ae) {
-			System.out.println(ae.getMessage());
 		} catch (ArrayIndexOutOfBoundsException aiobe) {
-			System.out.println(aiobe.getMessage());
-			System.out.println(aiobe.getClass());
+//			ae.printStackTrace();// will give output like error in red color
+			System.out.println(aiobe.getMessage());// print output like output text
+		} catch (ArithmeticException ae) {
+//			ae.printStackTrace();
+			System.out.println(ae.getMessage());
 		} catch (Exception e) {
+			// this is super class for all Exception, and it will handle subclass Exceptions
 			System.out.println(e.getMessage());
-			e.printStackTrace();
 		} finally {
-			System.out.println("Finally");
+			System.out.println("I am Finally Block");
 		}
-		System.out.println("End of the program");
+
+		System.out.println("End of Program");
+	}
+
+	static void method() throws IOException {
+		System.out.println("Hello");
 	}
 
 }

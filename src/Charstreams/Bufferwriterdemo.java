@@ -1,30 +1,30 @@
 package Charstreams;
 
-import java.io.FileWriter;
 import java.io.BufferedWriter;
+import java.io.FileWriter;
 
 public class Bufferwriterdemo {
 
-  public static void main(String args[]) {
+	public static void main(String args[]) {
 
-    String data = "This is the data in the output file";
+		String data = "This is the data in the output file";
 
-    try {
-      // Creates a FileWriter
-      FileWriter file = new FileWriter("output.txt");
+		try {
+			// Creates a FileWriter
+			FileWriter file = new FileWriter("output.txt");
 
-      // Creates a BufferedWriter
-      BufferedWriter output = new BufferedWriter(file);
+			// Creates a BufferedWriter
+			BufferedWriter output = new BufferedWriter(file);
 
-      // Writes the string to the file
-      output.write(data);
+			// Writes the string to the file
+			output.write("Fita");
 
-      // Closes the writer
-      output.close();
-    }
+			// Closes the writer
+			output.close();
+		}
 
-    catch (Exception e) {
-      e.getStackTrace();
-    }
-  }
+		catch (Exception e) {
+			e.getStackTrace();
+		}
+	}
 }

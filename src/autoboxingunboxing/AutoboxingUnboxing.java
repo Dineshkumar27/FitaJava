@@ -6,7 +6,7 @@ public class AutoboxingUnboxing {
 
 		// Autoboxing
 		int a = 10;// primitive type
-		Integer A = new Integer(a);// Explicity converting
+		Integer A = a;// Explicity converting
 		System.out.println(a);
 		System.out.println(A);
 

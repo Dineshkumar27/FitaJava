@@ -9,12 +9,12 @@ public class Staticdemo {
 //		Sample.show();
 
 		Sample2 obj1 = new Sample2();
-		System.out.println(obj1.studentId);
+		System.out.println(obj1.studentId);// 11
 
 		Sample2 obj2 = new Sample2();
-		System.out.println(obj2.studentId);
+		System.out.println(obj2.studentId);// 11
 
-		Sample2 obj3 = new Sample2();
+		Sample2 obj3 = new Sample2();// 11
 		System.out.println(obj3.studentId);
 
 		System.out.println(obj1.studentId);

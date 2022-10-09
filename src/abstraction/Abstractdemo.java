@@ -24,6 +24,10 @@ public class Abstractdemo {
 		customer.calculateBill();// call the priviledged customer calculate bill
 		customer.printTotalBillAmount();
 
+		Duck duck = new Duck("Raja");
+		duck.canFly();
+		System.out.println(duck.getDuckname() + "can Fly" + duck.canFly());
+
 	}
 
 }

@@ -7,8 +7,6 @@ public abstract class Customer {
 	protected float totalAmount;
 	protected double billAmount;
 
-	abstract void calculateBill();
-
 	// non abstract method
 	public void printTotalBillAmount() {
 		System.out.println("bill amount is " + billAmount);

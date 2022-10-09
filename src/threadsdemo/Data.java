@@ -3,9 +3,10 @@ package threadsdemo;
 public class Data {
 
 	synchronized void print(int a) {
+
 		for (int i = 0; i < 5; i++) {
 			System.out.println(a);
-
+Hashtable
 		}
 	}
 }
