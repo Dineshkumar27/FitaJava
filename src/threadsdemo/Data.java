@@ -6,7 +6,6 @@ public class Data {
 
 		for (int i = 0; i < 5; i++) {
 			System.out.println(a);
-Hashtable
 		}
 	}
 }

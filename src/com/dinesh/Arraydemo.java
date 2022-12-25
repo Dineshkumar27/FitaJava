@@ -1,5 +1,7 @@
 package com.dinesh;
 
+import java.util.Scanner;
+
 public class Arraydemo {
 
 	public static void main(String[] args) {
@@ -11,13 +13,13 @@ public class Arraydemo {
 ////		marks[4]=69;
 //		
 //		System.out.println("Enter marks one by one");
-//		Scanner scanner = new Scanner(System.in);
-//		int totalMarks = 0;
-//		for (int i = 0; i < marks.length; i++) {
-//			System.out.println("Enter mark " + (i + 1));
-//			marks[i] = scanner.nextInt();
-//		}
-//
+		Scanner scanner = new Scanner(System.in);
+		int totalMarks = 0;
+		for (int i = 0; i < marks.length; i++) {
+			System.out.println("Enter mark " + (i + 1));
+			marks[i] = scanner.nextInt();
+		}
+
 //		for (int mark : marks) {
 //			System.out.print(mark + " ");
 //			totalMarks += mark;

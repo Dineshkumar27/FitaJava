@@ -4,6 +4,7 @@ public class App {
 	public static void main(String[] args) {
 
 		User user = new User();
+
 //		user.printDetails();// num1=10 num2=20
 ////		user.updateVariable();//calling method
 //		user.printDetails();// num1=11 num2=21

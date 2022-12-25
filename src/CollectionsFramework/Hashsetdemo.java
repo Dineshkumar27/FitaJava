@@ -21,10 +21,10 @@ public class Hashsetdemo {
 		System.out.println(numbers);
 		System.out.println(evennumbers);
 
-		numbers.addAll(evennumbers);// union
-		System.out.println(numbers);
-//		numbers.retainAll(evennumbers);// intersection
+//		numbers.addAll(evennumbers);// union
 //		System.out.println(numbers);
+		numbers.retainAll(evennumbers);// intersection
+		System.out.println(numbers);
 //		System.out.println(numbers);
 //		System.out.println(evennumbers);
 		numbers.removeAll(evennumbers);// Difference

@@ -7,4 +7,8 @@ public class Sample2 {
 	public Sample2() {
 		++studentId;
 	}
+
+	static {
+		System.out.println("Static Block");
+	}
 }

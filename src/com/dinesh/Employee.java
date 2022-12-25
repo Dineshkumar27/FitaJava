@@ -1,11 +1,11 @@
 package com.dinesh;
 
 public class Employee {
-
-	private int empid;
-	private String name;
-	private String address;
-	private double salary;
+//instance variable
+	private int empid;// 0
+	private String name;// null
+	private String address;// null
+	private double salary;// 0.0
 
 	public Employee() {
 		empid = 101;

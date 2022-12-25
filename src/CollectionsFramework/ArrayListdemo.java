@@ -24,9 +24,9 @@ public class ArrayListdemo {
 
 		List<Employees> empList = new ArrayList<Employees>();
 
-		empList.add(new Employees(101, "AAAA", "Chennai", 80000));
-		empList.add(new Employees(102, "BBBB", "HYD", 85000));
-		empList.add(new Employees(103, "CCCC", "Delhi", 70000));
+		empList.add(new Employees(101, "Jagan", "Chennai", 80000));
+		empList.add(new Employees(102, "Manish", "HYD", 85000));
+		empList.add(new Employees(103, "Disha", "Delhi", 70000));
 
 		System.out.println(empList.get(0).sal);
 

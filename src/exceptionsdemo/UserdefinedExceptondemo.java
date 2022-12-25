@@ -8,6 +8,7 @@ public class UserdefinedExceptondemo {
 		int age = 17;
 		try {
 			if (age < 18) {
+				// calling user defined exception
 				throw new Minorexception("Cannot vote");
 			}
 		} catch (Minorexception me) {

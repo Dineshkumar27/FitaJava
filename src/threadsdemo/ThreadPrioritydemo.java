@@ -13,17 +13,17 @@ public class ThreadPrioritydemo {
 		Mythread mt3 = new Mythread();
 		mt3.setName("Thread3");
 
-		mt1.setPriority(6);
-		mt2.setPriority(3);
-		mt3.setPriority(7);
+		mt1.setPriority(Thread.MAX_PRIORITY);
+//		mt2.setPriority(Thread.NORM_PRIORITY);
+//		mt3.setPriority(Thread.MIN_PRIORITY);
 
 		mt1.start();
 		mt2.start();
 		mt3.start();
 
-		Thread.currentThread().setPriority(8);
-		System.out.println(Thread.currentThread().getName());
-		System.out.println(Thread.currentThread().getPriority());
+//		Thread.currentThread().setPriority(8);
+//		System.out.println(Thread.currentThread().getName());
+//		System.out.println(Thread.currentThread().getPriority());
 	}
 
 }

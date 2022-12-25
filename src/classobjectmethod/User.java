@@ -1,7 +1,7 @@
 package classobjectmethod;
 
 public class User {
-	public int num1 = 10, num2 = 20;// instance variable
+	int num1 = 10, num2 = 20;// instance variable
 
 	public void printDetails() {// Method definition
 		updateVariable();

@@ -12,7 +12,7 @@ public class LinkedHashMapdemo {
 		hm.put("One", 1);
 		hm.put("Two", 2);
 		hm.put("Three", 3);
-
+//		System.out.println(hm);
 		// maintains order
 		LinkedHashMap<String, Integer> evenumbers = new LinkedHashMap<>(hm);
 

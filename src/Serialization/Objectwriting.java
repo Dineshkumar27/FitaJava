@@ -22,7 +22,6 @@ public class Objectwriting {
 
 		// Creates an object of Dog class
 		Dog dog = new Dog("Tyson", "Labrador");
-		dog.
 
 		try {
 			FileOutputStream file = new FileOutputStream("file.txt");

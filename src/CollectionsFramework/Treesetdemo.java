@@ -1,4 +1,5 @@
 package CollectionsFramework;
+
 import java.util.TreeSet;
 
 public class Treesetdemo {
@@ -10,8 +11,8 @@ public class Treesetdemo {
 		ts.add("A");
 		ts.add("Z");
 		ts.add("B");
-		ts.add("B");
-		ts.add("B");
+		ts.add("C");
+		ts.add("D");
 		System.out.println(ts);
 
 	}

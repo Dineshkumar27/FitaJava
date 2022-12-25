@@ -28,15 +28,19 @@ public class Variabledemo {
 		System.out.println("Converted Long" + longphoneNumber);
 //           
 //           int num2=(int)"10";
-//           int num2=true;
-////           
-//           boolean b=10;
+//		int num2 = true;
+
+//		boolean b =(boolean) 10;
 //           
 
 		float fnum = phoneNumber;// long to float
 
 		long lnum = (long) 9.89f;// float to long
 
+		char character = 'A';
+		System.out.println("ASCII" + (int) character);
+		int aAscii = 65;
+		System.out.println((char) aAscii);
 		String s = "Java";
 		int num7 = 10;
 		int num3 = 20;

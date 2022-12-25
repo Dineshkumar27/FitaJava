@@ -2,7 +2,7 @@ package com.dinesh;
 
 public class User {
 
-	private int userId;
+	int userId;
 	private String userName;
 	private String userType;
 
@@ -10,12 +10,6 @@ public class User {
 		this.userId = 890;
 		this.userName = "Jagan";
 		this.userType = "Regular";
-
-	}
-
-	public User(int userId) {
-		super();
-		this.userId = userId;
 	}
 
 	public User(int userId, String userName, String userType) {

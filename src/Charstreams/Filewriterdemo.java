@@ -17,7 +17,7 @@ public class Filewriterdemo {
 			output.write(data);
 
 			// Closes the writer
-
+			output.close();
 		}
 
 		catch (Exception e) {

@@ -16,16 +16,18 @@ public class Comparabledemo {
 
 		System.out.println(empList);
 		Collections.sort(empList, new SalaryComparator());
-		System.out.println("\n comparing by salary");
-		for (Employees e : empList) {
-			System.out.println(e);
-		}
+//		System.out.println("\n comparing by salary");
+//		for (Employees e : empList) {
+//			System.out.println(e);
+//		}
 
 		Collections.sort(empList, new NameComparator());
-		System.out.println("\n comparing by name ");
-		for (Employees e : empList) {
-			System.out.println(e);
-		}
+//		System.out.println("\n comparing by name ");
+//		for (Employees e : empList) {
+//			System.out.println(e);
+//		}
+		Collections.sort(empList);
+		System.out.println(empList);
 
 	}
 

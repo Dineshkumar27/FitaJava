@@ -6,7 +6,9 @@ public class Joindemo {
 		Mythread mt1 = new Mythread();
 		Mythread mt2 = new Mythread();
 		Mythread mt3 = new Mythread();
-
+		mt1.setName("Thread 1");
+		mt2.setName("Thread 2");
+		mt3.setName("Thread 3");
 		mt1.start();
 
 		try {

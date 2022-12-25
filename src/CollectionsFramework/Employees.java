@@ -10,9 +10,9 @@ class SalaryComparator implements Comparator<Employees> {
 		if (o1.sal == o2.sal) {
 			return 0;
 		} else if (o1.sal > o2.sal) {
-			return -1;
-		} else {
 			return 1;
+		} else {
+			return -1;
 		}
 	}
 
@@ -28,7 +28,7 @@ class NameComparator implements Comparator<Employees> {
 
 }
 
-public class Employees {
+public class Employees implements Comparable<Employees> {
 
 	int empId;
 	String empName;
@@ -49,12 +49,18 @@ public class Employees {
 		return "Employees [empId=" + empId + ", empName=" + empName + ", addr=" + addr + ", sal=" + sal + "]";
 	}
 
-	/*
-	 * @Override public int compareTo(Employees o) { // TODO Auto-generated method
-	 * stub // if (sal == o.sal) { // return 0; // } else if (sal > o.sal) { //
-	 * return -1; // } else { // return 1; // }
-	 * 
-	 * return -(empName.compareTo(o.empName)); }
-	 */
+	@Override
+	public int compareTo(Employees o) {
+//return sal-o.sal;
+		if (sal == o.sal) {
+			return 0;
+		} else if (sal > o.sal) {
+			return -1;
+		} else {
+			return 1;
+		}
+
+//		return -(empName.compareTo(o.empName));
+	}
 
 }
